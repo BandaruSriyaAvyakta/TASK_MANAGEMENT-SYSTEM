@@ -1,0 +1,20 @@
+/* SignIn.css */
+.signin-background {
+    background-image: url('./Log.jpeg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the container covers the full viewport height */
+    margin: 0; /* Remove default margins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    border: 0px solid #fefbfb;
+    border-radius: 0px;
+    padding: 30px;
+    max-width: 90%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8); /* Adjusted for transparency */
+}

@@ -1,0 +1,170 @@
+/* Reset default styles */
+body {
+   margin: 0;
+   padding: 2px; /* Increased padding */
+   box-sizing: border-box;
+   background-color: #FEFBF6;
+   font-family: 'Arial', sans-serif; /* Example font family, adjust as needed */
+   font-size: 18px; /* Increased default font size */
+}
+
+/* Navbar */
+.navbar {
+   position: fixed;
+   top: 10;
+   width: 10%;
+   background-color: #0bb3eb;
+   color: white;
+   padding: 20px 40px; /* Increased padding */
+   box-shadow: 0px 1px 5px hsla(0, 94%, 6%, 0.92);
+   z-index: 1000;
+}
+
+/* Slick Slider */
+.slick-slider {
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+}
+
+.slick-slide {
+   margin: 0 40px;
+}
+
+/* Card */
+.card {
+   border: none;
+   box-shadow: 0 4px 8px rgba(27, 21, 21, 0.833);
+   border-radius: 8px;
+   overflow: hidden;
+   max-width: 600px; /* Increased max-width */
+   margin: 0 auto;
+   padding: 0px; /* Increased padding */
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   max-height: 1000px;
+   object-fit: cover;
+}
+.card-content {
+   padding: 8px; /* Increased padding */
+   text-align: center;
+   background-color: #FFC436;
+   font-size: 1.0em; /* Adjusted font size */
+}
+
+/* Card Second Section */
+.card-second-section {
+   display: flex;
+   border: 1px solid #FFC436;
+   box-shadow: 0 4px 8px rgba(245, 234, 234, 0.833);
+   border-radius: 8px;
+   overflow: hidden;
+   max-width: 1400px; /* Increased max-width */
+   margin: 20px auto; /* Increased margin */
+   padding: 20px; /* Increased padding */
+}
+
+.card-second-section img {
+   width: 70%; /* Increased width */
+   height: auto;
+   max-width: 100%;
+   max-height: 800px;
+   object-fit: cover;
+}
+
+.card-second-section .card-content {
+   flex: 1;
+   padding: 30px; /* Increased padding */
+   text-align: left;
+   background-color: #FFC436;
+   font-size: 2.9em; /* Increased font size */
+}
+
+/* Card Third Section */
+.card-third-section {
+   display: flex;
+   border: 1px solid #FFC436;
+   box-shadow: 0 4px 8px rgba(27, 21, 21, 0.833);
+   border-radius: 8px;
+   overflow: hidden;
+   max-width: 1400px; /* Increased max-width */
+   margin: 20px auto; /* Increased margin */
+   padding: 20px; /* Increased padding */
+}
+
+.card-third-section .content-container {
+   flex: 1;
+   padding: 20px; /* Increased padding */
+   text-align: left;
+   background-color: #FFC436;
+   font-size: 1.2em; /* Increased font size */
+}
+
+.card-third-section .image-container {
+   width: 70%; /* Increased width */
+   overflow: hidden;
+}
+
+.card-third-section img {
+   width: 100%;
+   height: auto;
+   max-width: 800%;
+   max-height: 800px;
+   object-fit: cover;
+}
+
+/* Card Fourth Section */
+.card-fourth-section {
+   display: flex;
+   border: 0px solid #FFC436;
+   box-shadow: 0 4px 8px rgba(27, 21, 21, 0.833);
+   border-radius: 1px;
+   overflow: hidden;
+   max-width: 1400px; /* Increased max-width */
+   margin: 1px auto; /* Increased margin */
+   padding: 24px; /* Increased padding */
+}
+
+.card-fourth-section img {
+   width: 70%; /* Increased width */
+   height: auto;
+   max-width: 100%;
+   max-height: 800px;
+   object-fit: cover;
+}
+
+.card-fourth-section .card-content {
+   flex: 1;
+   padding: 30px; /* Increased padding */
+   text-align: left;
+   background-color: #FFC436;
+   font-size: 2.9em; /* Increased font size */
+}
+
+/* Component Container */
+.component-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.component-item {
+   width: 105%; /* Increased width */
+   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+   .component-item {
+      width: 100%;
+   }
+}
+.app-container {
+   padding-top: 76px; /* Adjust this value based on the height of your navbar */
+   padding-bottom: 1px;
+   margin-bottom: 1cm;
+}
+
